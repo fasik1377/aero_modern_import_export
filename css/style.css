@@ -92,7 +92,7 @@
     position: relative;
     margin-right: 25px;
     padding: 35px 0;
-    color: var(--bs-white);
+    color: rgb(17, 83, 195);
     font-size: 17px;
     font-weight: 400;
     outline: none;
@@ -944,4 +944,8 @@
 
 .clients .swiper-slide img:hover {
     transform: scale(1.1);
+}
+
+.nav_text_color{
+    color: rgb(17, 83, 195);
 }
