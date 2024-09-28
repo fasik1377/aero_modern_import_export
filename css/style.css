@@ -525,7 +525,7 @@ p {
     top: -30px;
     right: 0;
     border-radius: 10px;
-    background: var(--bs-secondary);
+    background: rgba(25, 64, 154, 0.9);
 
 }
 
@@ -537,7 +537,7 @@ p {
     left: -30px;
     bottom: 30px;
     border-radius: 10px;
-    background: var(--bs-secondary);
+    background: rgba(25, 64, 154, 0.9);
 }
 
 .about .about-img .about-exp {
@@ -547,9 +547,9 @@ p {
     padding: 25px;
     font-size: 30px;
     font-weight: bold;
-    background: var(--bs-secondary);
+    background: rgba(25, 64, 154, 0.9);
     color: var(--bs-white);
-    border: 1px solid var(--bs-secondary);
+    border: 1px solid rgba(25, 64, 154, 0.9);
     margin-top: -30px;
     margin-left: -30px;
     border-radius: 10px;
