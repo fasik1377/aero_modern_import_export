@@ -130,6 +130,7 @@ p {
     font-weight: 400;
     outline: none;
     transition: .5s;
+    font-family: 'Calligraffitti', cursive
 }
 
 .sticky-top.navbar-light .navbar-nav .nav-link {
@@ -1168,7 +1169,7 @@ p {
 
 /*** Hero Header ***/
 .hero-header {
-    background: linear-gradient(rgba(177, 210, 243, 0.9), rgba(105, 133, 241, 0.9)), url(../img/import1.jpg);
+    background: linear-gradient(rgba(221, 234, 248, 0.6), rgba(72, 107, 248, 0.9)), url(../img/import1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
