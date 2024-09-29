@@ -1119,7 +1119,8 @@ p {
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    color: black !important;
+    color: white !important;
+    text-shadow: 2px 2px rgba(25, 64, 154, 0.9),
 }
 
 .navbar-dark .navbar-brand img {
