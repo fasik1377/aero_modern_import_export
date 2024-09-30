@@ -41,68 +41,50 @@
 
         
     <!-- Topbar Start -->
-    <div class="container-fluid  px-5 d-none d-lg-block gradient_background">
+     <div class="container-fluid px-5 d-none d-lg-block header_gradient_background"> 
         <div class="row gx-0 align-items-center" style="height: 45px;">
-            <div class="col-lg-8 text-center text-lg-start mb-lg-0">
-                <div class="d-flex flex-wrap">
-                    <a href="#" class="text-light me-4"><i class="fas fa-map-marker-alt text-white me-2"></i>Find A
-                        Location</a>
-                    <a href="#" class="text-light me-4"><i class="fas fa-phone-alt text-white me-2"></i>+251 116 393 560/61</a>
-                    <a href="#" class="text-light me-0"><i
-                            class="fas fa-envelope text-white me-2"></i>info@aeromodern.com</a>
+            <div class="col-lg-12 text-end mb-lg-0 contact-info">
+                <div class="d-flex flex-wrap justify-content-end">
+                    <a href="#" class="contact-link">
+                        <i class="fas fa-map-marker-alt icon"></i> Location
+                    </a>
+                    <a href="#" class="contact-link">
+                        <i class="fas fa-phone-alt icon"></i> +251 116 393 560/61
+                    </a>
+                    <a href="#" class="contact-link">
+                        <i class="fas fa-envelope icon"></i> info@aeromodern.com
+                    </a>
                 </div>
             </div>
-            <!--<div class="col-lg-4 text-center text-lg-end">
-                <div class="d-flex align-items-center justify-content-end">
-                    <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i
-                            class="fab fa-twitter"></i></a>
-                    <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i
-                            class="fab fa-instagram"></i></a>
-                    <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-0"><i
-                            class="fab fa-linkedin-in"></i></a>
-                </div>
-            </div> -->
         </div>
     </div>
-    <!-- Topbar End -->
- 
-    <!-- Navbar & Hero Start -->
-    <div class="container-fluid position-relative p-0">
-        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0 bg-white">
-            <a href="" class="navbar-brand p-0">
-                <h1 class="nav_text_color">
-                    <img src="img/aero_logo.png" alt="Logo" style=" 
-                         height: 80px;
-                         width: 65px;">Aero Modern
-                </h1>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="fa fa-bars"></span>
-            </button>
-
+        <!-- Navbar & Hero Start -->
+        <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark px-lg-5 py-3 py-lg-0" style="background: rgb(7, 73, 186, 0.3);">
+                <a href="" class="navbar-brand p-0 d-flex align-items-center">
+                    <div class="circle-background"> <img src="img/aero_logo.png" alt="Logo"></div>
+                    <h1 class="m-0" style="color:rgb(7, 73, 186);">Aero Modern</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                    <style>
+                    </style>
+                </a>
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto py-0">
-                    <a href="index.html" class="nav-item nav-link" style="margin-right: 15px;">Home</a>
-                    <a href="about.html" class="nav-item nav-link active" style="margin-right: 15px;">About</a>
-                    <a href="service.html" class="nav-item nav-link" style="margin-right: 15px;">Import</a>
-                    <a href="blog.html" class="nav-item nav-link" style="margin-right: 15px;">Export</a>
+                <div class="navbar-nav ms-auto py-0 pe-4">
+                    <a href="index.html" class="nav-item nav-link" style="font-family: 'Calligraffitti', cursive"><b>Home</b></a>
+                    <a href="about.html" class="nav-item nav-link active" style="font-family: 'Calligraffitti', cursive"><b>About</b></a>
+                    <a href="service.html" class="nav-item nav-link" style="font-family: 'Calligraffitti', cursive"><b>Import</b></a>
+                    <a href="blog.html" class="nav-item nav-link" style="font-family: 'Calligraffitti', cursive"><b>Export</b></a>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Our Subsidies</a>
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="font-family: 'Calligraffitti', cursive"><b>Our Subsidiaries</b></a>
                         <div class="dropdown-menu m-0">
-                            <a href="feature.html" class="dropdown-item">Ansea Global Trading LLC</a>
-                            <a href="product.html" class="dropdown-item">Shah Trading FZCO</a>
+                            <a href="booking.html" class="dropdown-item" style="font-family: 'Calligraffitti', cursive">Ansea Global Trading LLC</a>
+                            <a href="team.html" class="dropdown-item" style="font-family: 'Calligraffitti', cursive">Shah Trading FZCO</a>
                         </div>
                     </div>
-                    <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                    <a href="contact.html" class="nav-item nav-link" style="font-family: 'Calligraffitti', cursive"><b>Contact Us</b></a>
                 </div>
-                <!-- You can uncomment and style the search button or CTA if needed -->
-                <!-- <button class="btn btn-primary btn-md-square d-flex flex-shrink-0 mb-3 mb-lg-0 rounded-circle me-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button> -->
-                <!-- <a href="" class="btn btn-primary rounded-pill d-inline-flex flex-shrink-0 py-2 px-4">Order Now</a> -->
             </div>
         </nav>
-
             <!-- Header Start -->
             <div class="container-fluid bg-breadcrumb">
                 <div class="container text-center py-5" style="max-width: 900px;">

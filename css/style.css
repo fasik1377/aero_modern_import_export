@@ -445,7 +445,7 @@ p {
 .bg-breadcrumb {
     position: relative;
     overflow: hidden;
-    background: linear-gradient(rgba(0, 20, 66, 0.7), rgba(0, 20, 66, 0.7)), url(../img/breadcrumb.jpg);
+    background: linear-gradient(rgb(205, 216, 241, 0.7), rgb(8, 62, 187, 0.7)), url(../img/breadcrumb.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1188,4 +1188,43 @@ p {
 
 .breadcrumb-item + .breadcrumb-item::before {
     color: rgba(255, 255, 255, .5);
+}
+
+
+.circle-background {
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-right: 10px;
+    box-shadow: 0 0 20px 10px rgba(7, 73, 186, 0.3);
+    animation: blink 3s infinite;
+}
+
+.circle-background img {
+    width: 100%;
+    height: auto;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+        /* Fully visible */
+    }
+
+    50% {
+        opacity: 0;
+        /* Fully invisible */
+    }
+
+    100% {
+        opacity: 1;
+        /* Fully visible again */
+    }
 }
