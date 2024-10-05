@@ -1228,3 +1228,186 @@ p {
         /* Fully visible again */
     }
 }
+
+/* Import Export Card */
+.card-big-shadow {
+    max-width: 320px;
+    position: relative;
+}
+
+.coloured-cards .card-ie {
+    margin-top: 30px;
+}
+
+.card-ie[data-radius="none"] {
+    border-radius: 0px;
+}
+.card-ie {
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5);
+    background-color: #FFFFFF;
+    color: #252422;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.card-ie[data-background="image"] .title, .card-ie[data-background="image"] .stats, .card-ie[data-background="image"] .category, .card-ie[data-background="image"] .description, .card-ie[data-background="image"] .content, .card-ie[data-background="image"] .card-footer, .card-ie[data-background="image"] small, .card-ie[data-background="image"] .content a, .card-ie[data-background="color"] .title, .card-ie[data-background="color"] .stats, .card-ie[data-background="color"] .category, .card-ie[data-background="color"] .description, .card-ie[data-background="color"] .content, .card-ie[data-background="color"] .card-footer, .card-ie[data-background="color"] small, .card-ie[data-background="color"] .content a {
+    color: #FFFFFF;
+}
+.card-ie.card-just-text .content {
+    padding: 50px 65px;
+    text-align: center;
+}
+.card-ie .content {
+    padding: 20px 20px 10px 20px;
+}
+.card-ie[data-color="blue"] .category {
+    color: #778df0;
+}
+
+.card-ie .category, .card-ie .label {
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+.card-big-shadow:before {
+    background-image: url("http://static.tumblr.com/i21wc39/coTmrkw40/shadow.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    bottom: -12%;
+    content: "";
+    display: block;
+    left: -12%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+}
+h4, .h4 {
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 1.2em;
+    text-decoration: none;
+}
+h6, .h6 {
+    font-size: 0.9em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.card-ie .description {
+    font-size: 16px;
+    color: #66615b;
+}
+.content-card{
+    margin-top:30px;    
+}
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+/*======== COLORS ===========*/
+.card-ie[data-color="blue"] {
+    background: #0749BA;
+}
+.card-ie[data-color="blue"] .description {
+    color: #d3ddff;
+}
+
+.card-ie[data-color="green"] {
+    background: #5c81c0;
+}
+.card-ie[data-color="green"] .description {
+    color: #60773d;
+}
+.card-ie[data-color="green"] .category {
+    color: #7e56ac;
+}
+
+.card-ie[data-color="yellow"] {
+    background: #ffe28c;
+}
+.card-ie[data-color="yellow"] .description {
+    color: #b25825;
+}
+.card-ie[data-color="yellow"] .category {
+    color: #d88715;
+}
+
+.card-ie[data-color="brown"] {
+    background: #d6c1ab;
+}
+.card-ie[data-color="brown"] .description {
+    color: #75442e;
+}
+.card-ie[data-color="brown"] .category {
+    color: #a47e65;
+}
+
+.card-ie[data-color="purple"] {
+    background: #baa9ba;
+}
+.card-ie[data-color="purple"] .description {
+    color: #3a283d;
+}
+.card-ie[data-color="purple"] .category {
+    color: #5a283d;
+}
+
+.card-ie[data-color="orange"] {
+    background: #ff8f5e;
+}
+.card-ie[data-color="orange"] .description {
+    color: #772510;
+}
+.card-ie[data-color="orange"] .category {
+    color: #e95e37;
+}
+.card-ie a{
+    text-decoration: none;
+}
+
+
+.animated-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.animated-list li {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.8s ease-in-out forwards;
+    animation-delay: calc(0.2s * var(--i));
+    margin: 5px;
+    background-color: #0749BA;
+    color: white;
+    padding: 0px 0px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    box-shadow: 0 0 3px rgb(255, 255, 255);
+}
+
+.animated-list li:hover {
+    transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Add delay to each item */
+.animated-list li:nth-child(1) { --i: 1; }
+.animated-list li:nth-child(2) { --i: 2; }
+.animated-list li:nth-child(3) { --i: 3; }
+.animated-list li:nth-child(4) { --i: 4; }
+.animated-list li:nth-child(5) { --i: 5; }
