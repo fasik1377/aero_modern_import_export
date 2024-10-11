@@ -1497,7 +1497,7 @@ a:hover, a:focus {
 #myCarousel {
     position: relative;
     z-index: 1;
-    background: url(../img/cool-background.png) center center no-repeat;
+     background: url(../img/cool-background.png) center center no-repeat; 
     background-size: cover;
 }
 

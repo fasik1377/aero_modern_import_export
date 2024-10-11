@@ -126,7 +126,7 @@
             <div class="col-lg-6 text-center text-lg-start">
                 <h1 class="display-3 text-white" style="font-family: 'Calligraffitti', cursive;
                 font-weight: 600;
-                font-size: 3.5rem; /* Responsive font size */
+                font-size: 4rem; /* Responsive font size */
                 position: relative;  
                 text-shadow: -7px 3px 7px #ced0d3;
                 letter-spacing: 0.02em;
@@ -138,9 +138,12 @@
                   top: -120px">
                 <b>Moving Goods,</b> <br>Moving the World
             </h1>
-
-                <!-- Tables Section -->
-                <div class="container">
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <!-- First Slide -->
+        <div class="carousel-item active">
+            <div class="d-block w-100 p-5 text-center" style="background-color: transparent;">
+                <p class="lead"><div class="container">
                     <div class="row">
                         <!-- Import Table -->
                         <div class="col-md-6">
@@ -195,13 +198,149 @@
                         </div>
                     </div>
                 </div>
+                
+                </div></p>
             </div>
-            <!-- Image Section -->
-            <div class="col-lg-6 text-center text-lg-end overflow-hidden">
-                <img class="img-fluid" src="img/export1-modified.png" alt="" style="max-width: 100%; height: auto;">
+        </div>
+        <!-- Second Slide -->
+        <div class="carousel-item">
+            <div class="d-block w-100 p-5 text-center" style="background-color: transparent;">
+                <p class="lead">
+                    <table class="table-responsive" style="font-size: 20px; color: white;">
+                    <thead>
+                        <tr>
+                            <th>Home and personal care</th>
+                        </tr>
+                    </thead>
+                    <tbody><tr>
+                        <td>Fragrances</td>
+                    </tr>
+                    <tr>
+                        <td>Soap Noodles</td>
+                    </tr>
+                    <tr>
+                        <td>Colours</td>
+                    </tr>
+                    <tr>
+                        <td>Methyl Paraben</td>
+                    </tr>
+                    <tr>
+                        <td>TALC</td>
+                    </tr>
+                    <tr>
+                        <td>White Oil</td>
+                    </tr>
+                    <tr>
+                        <td>S.L.E.S</td>
+                    </tr>
+                    <tr>
+                        <td>C.A.P.B</td>
+                    </tr>
+                    <tr>
+                        <td>Carbomer</td>
+                    </tr>
+                    </tbody>
+                </table></p>
+            </div>
+        </div>
+        <!-- Third Slide -->
+        <div class="carousel-item">
+            <div class="d-block w-100 p-5 text-center" style="background-color: transparent;">
+                <p class="lead"><table class="table-responsive" style="font-size: 20px; color: white;">
+                    <thead>
+                        <tr>
+                            <th>Paints</th>
+                        </tr>
+                    </thead>
+                    <tbody><tr>
+                        <td>Titanium Dioxide</td>
+                    </tr>
+                    <tr>
+                        <td>Pigments</td>
+                    </tr>
+                    <tr>
+                        <td>Colourants</td>
+                    </tr>
+                    <tr>
+                        <td>TALC</td>
+                    </tr>
+                    <tr>
+                        <td>Styrene Acrylic</td>
+                    </tr>
+                    <tr>
+                        <td>Long Oil</td>
+                    </tr>
+                    <tr>
+                        <td>Medium Oil</td>
+                    </tr>
+                    <tr>
+                        <td>Nitro Cellulose</td>
+                    </tr>
+                    </tbody>
+                </table></p>
             </div>
         </div>
     </div>
+</div>
+
+                <!-- Tables Section -->
+            <!-- Image Section --><div class="col-lg-6 image-container text-center text-lg-end">
+    <img class="img-fluid" src="img/export1-modified.png" alt="" style="max-width: 100%; height: auto;">
+    <img class="img-fluid" src="img/home.png" alt="" style="max-width: 100%; height: auto;">
+    <img class="img-fluid" src="img/paint.png" alt="" style="max-width: 100%; height: auto;">
+</div>
+
+<style>
+    .image-container {
+        position: relative;
+        width: 100%;
+        height: 600px;
+        /* Adjust as needed */
+        overflow: hidden;
+    }
+
+    .image-container img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        opacity: 0;
+        animation: fade-rotate 9s infinite;
+    }
+
+    /* Image 1 will show first */
+    .image-container img:nth-child(1) {
+        animation-delay: 0s;
+    }
+
+    /* Image 2 will show after 3 seconds */
+    .image-container img:nth-child(2) {
+        animation-delay: 3s;
+    }
+
+    /* Image 3 will show after 6 seconds */
+    .image-container img:nth-child(3) {
+        animation-delay: 6s;
+    }
+
+    @keyframes fade-rotate {
+        0%, 33% {
+            opacity: 1;
+            transform: rotate(0deg); /* No rotation at start */
+        }
+
+        34%, 100% {
+            opacity: 0;
+            transform: rotate(360deg); /* Full rotation */
+        }
+    }
+</style>
+        
+        </div>
+        
+    </div>
+    
 </div>
 
 <!-- Responsive CSS for additional styling -->
@@ -425,156 +564,6 @@
     <!--  </div> -->
     <!-- Carousel Controls -->
     </div>
-
-
-    <!--Slide Start-->
-    
-    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-        <!-- Slides container -->
-        <div class="carousel-inner">
-            <!-- First slide -->
-            <div class="carousel-item active">
-                <div class="mask flex-center">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-md-7 col-12 order-md-1 order-2">
-                                <h4 class="text-white">Home and personal care</h4>
-                                <table class=" table-responsive" style="background-color: transparent;font-size: 17px; color: white; margin-left: 70px;">
-                                    <thead>
-                                    </thead>
-                                    <tbody><tr>
-                                        <td>Fragrances</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Soap Noodles</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Colours</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Methyl Paraben</td>
-                                    </tr>
-                                    <tr>
-                                        <td>TALC</td>
-                                    </tr>
-                                    <tr>
-                                        <td>White Oil</td>
-                                    </tr>
-                                    <tr>
-                                        <td>S.L.E.S</td>
-                                    </tr>
-                                    <tr>
-                                        <td>C.A.P.B</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Carbomer</td>
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="col-md-5 col-12 order-md-2 order-1">
-                                <img src="img/home.png"  class="mx-auto" alt="slide">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    
-            <!-- Second slide -->
-            <div class="carousel-item">
-                <div class="mask flex-center">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-md-7 col-12 order-md-1 order-2">
-                                <h4 class="text-white">Paint</h4>
-                            <table class=" table-responsive"
-                                style="background-color: transparent;font-size: 17px; color: white; margin-left: 70px;">
-                                <thead>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Titanium Dioxide</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Pigments</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Colourants</td>
-                                    </tr>
-                                    <tr>
-                                        <td>TALC</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Styrene Acrylic</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Long Oil</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Medium Oil</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Nitro Cellulose</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            </div>
-                            <div class="col-md-5 col-12 order-md-2 order-1">
-                                <img src="img/paint.png" class="mx-auto" alt="slide">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    
-            <!-- Third slide -->
-            <div class="carousel-item">
-                <div class="mask flex-center">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-md-7 col-12 order-md-1 order-2">
-                                <h4 class="text-white">Food & Beverages</h4>
-                            <table class=" table-responsive"
-                                style="background-color: transparent;font-size: 17px; color: white; margin-left: 70px;">
-                                <thead>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Food Flavours</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Food Colours</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Liquid Glucose</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Soya Lecitin</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Ammonium Bicarbonate</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            </div>
-                            <div class="col-md-5 col-12 order-md-2 order-1">
-                                <img src="img/home.png" class="mx-auto" alt="slide">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-<script>
-    $(document).ready(function () {
-        $('#myCarousel').carousel({
-            interval: 12000,  // Speed of the slide, e.g., 3000ms
-            pause: 'hover'   // Pause the carousel when hovered over
-        });
-    });
-</script>
-    <!--Slide End-->
 
 
     <!--Import and Export Part Start-->
