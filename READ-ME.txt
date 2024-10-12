@@ -1,9 +1,5 @@
-  =>  Template Name    : Acuas - Drinking Water Website Template
+  =>  Template Name    : Aero Modern Import and Export
 
-  =>  Template Link    : https://htmlcodex.com/drinking-water-website-template
+  =>  Template Author  : Fasika Abera
 
-  =>  Template License : https://htmlcodex.com/license (or read the LICENSE.txt file)
-
-  =>  Template Author  : HTML Codex
-
-  =>  Author Website   : https://htmlcodex.com
+  =>  Author Website   : https://fasik1377.github.io/fasika-abera/
