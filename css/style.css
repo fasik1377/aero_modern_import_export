@@ -1309,14 +1309,14 @@ a:hover, a:focus {
 
 /*======== COLORS ===========*/
 .card-ie[data-color="blue"] {
-    background: #0749BA;
+    background: #007bff;
 }
 .card-ie[data-color="blue"] .description {
     color: #d3ddff;
 }
 
 .card-ie[data-color="green"] {
-    background: #5c81c0;
+    background: #007bff;
 }
 .card-ie[data-color="green"] .description {
     color: #60773d;
