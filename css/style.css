@@ -1264,7 +1264,7 @@ p {
     padding: 20px 20px 10px 20px;
 }
 .card-ie[data-color="blue"] .category {
-    color: #778df0;
+    color: #FFF;
 }
 
 .card-ie .category, .card-ie .label {
@@ -1309,14 +1309,14 @@ a:hover, a:focus {
 
 /*======== COLORS ===========*/
 .card-ie[data-color="blue"] {
-    background: #007bff;
+    background: #FFF;
 }
 .card-ie[data-color="blue"] .description {
     color: #d3ddff;
 }
 
 .card-ie[data-color="green"] {
-    background: #007bff;
+    background: #FFF;
 }
 .card-ie[data-color="green"] .description {
     color: #60773d;
@@ -1381,7 +1381,7 @@ a:hover, a:focus {
     animation: fadeIn 0.8s ease-in-out forwards;
     animation-delay: calc(0.2s * var(--i));
     margin: 5px;
-    background-color: #0749BA;
+    background-color: rgb(0, 123, 255, 0.8);
     color: white;
     padding: 0px 0px;
     border-radius: 8px;
